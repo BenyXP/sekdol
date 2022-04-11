@@ -55,10 +55,10 @@ async def is_autoend() -> bool:
     if not mode:
         user = await autoenddb.find_one({"chat_id": chat_id})
         if not user:
-            autoend[chat_id] = False
-            return False
-        autoend[chat_id] = True
-        return True
+            autoend[chat_id] = True
+            return True
+        autoend[chat_id] = False
+        return False
     return mode
 
 
