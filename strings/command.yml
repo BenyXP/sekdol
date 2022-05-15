@@ -50,7 +50,7 @@ SKIP_COMMAND : ["skip", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["mrestart"]
+RESTART_COMMAND : ["restart"]
 
 # Sudo Users Commaands
 
@@ -63,9 +63,9 @@ SUDOUSERS_COMMAND : ["msudolist"]
 BROADCAST_COMMAND : ["broadcast"]
 
 #Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat"]
-WHITELISTCHAT_COMMAND : ["whitelistchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+BLACKLISTCHAT_COMMAND : ["blchat"]
+WHITELISTCHAT_COMMAND : ["wlchat"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistchat"]
 
 # Video Calls Command
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
