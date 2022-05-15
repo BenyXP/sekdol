@@ -39,11 +39,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-            InlineKeyboardButton(
+        [  
+           InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
-        ],
-        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
