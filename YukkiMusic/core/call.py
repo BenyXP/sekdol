@@ -303,7 +303,7 @@ class Call(PyTgCalls):
             )
         except TelegramServerError:
             raise AssistantErr(
-                "**Kesalahan Pemutusan Telegram**\n\nTelegram mengalami beberapa masalah server internal, Silakan coba putar lagi.\n\n Jika masalah ini terus muncul setiap saat, harap akhiri obrolan suara Anda dan mulai obrolan suara baru lagi.
+                "**Kesalahan Pemutusan Telegram**\n\nTelegram mengalami beberapa masalah server internal, Silakan coba putar lagi.\n\n Jika masalah ini terus muncul setiap saat, harap akhiri obrolan suara Anda dan mulai obrolan suara baru lagi."
             )
         await add_active_chat(chat_id)
         await mute_off(chat_id)
