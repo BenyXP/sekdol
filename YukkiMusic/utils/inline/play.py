@@ -278,6 +278,8 @@ def panel_markup_2(_, videoid, chat_id):
         ],
     ]
     return buttons
+
+
 def panel_markup_3(_, videoid, chat_id):
     buttons = [
         [
@@ -294,5 +296,5 @@ def panel_markup_3(_, videoid, chat_id):
                 callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
             ),
         ],
-      ]
-     return buttons
+     ]
+    return buttons
