@@ -211,12 +211,6 @@ def slider_markup(
     return buttons
 
 
-
-        ],
-    ]
-    return buttons
-
-
 ## Cpanel Markup
 
 
