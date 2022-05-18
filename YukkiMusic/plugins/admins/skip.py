@@ -170,7 +170,7 @@ async def skip(cli, message: Message, _, chat_id):
             await Yukki.skip_stream(chat_id, videoid, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
-        button = telegram_markup(_)
+        button = telegram_markup(_, chat_id)
         run = await message.reply_photo(
             photo=config.STREAM_IMG_URL,
             caption=_["stream_2"].format(user),
