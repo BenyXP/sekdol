@@ -20,7 +20,7 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text=_["ST_B_28"],
-                url=f"https://t.me/bukanyesus",
+                url=f"https://t.me/baruditelee",
             ),
             InlineKeyboardButton(
                 text=_["S_B_2"], callback_data="settings_helper"
