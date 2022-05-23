@@ -285,6 +285,7 @@ def panel_markup_3(_, videoid, chat_id):
        [   InlineKeyboardButton(
                 text="Lirik",
                 url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
+         ),
        ],
        [
             InlineKeyboardButton(
