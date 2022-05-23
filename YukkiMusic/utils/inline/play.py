@@ -282,11 +282,24 @@ def panel_markup_2(_, videoid, chat_id):
 
 def panel_markup_3(_, videoid, chat_id):
     buttons = [
-       [   InlineKeyboardButton(
-                text="🔭 Lirik",
-                callback_data=f"lyrics {videoid}",
-         ),
-       ],
+       [
+            InlineKeyboardButton(
+                text="🔇 Mute", callback_data=f"ADMIN Mute|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="🔊 Unmute",
+                callback_data=f"ADMIN Unmute|{chat_id}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="🔀 Shuffle",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="🔁 Loop", callback_data=f"ADMIN Loop|{chat_id}"
+            ),
+        ],
        [
             InlineKeyboardButton(
                 text="◀️",
