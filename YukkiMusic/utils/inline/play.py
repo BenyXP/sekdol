@@ -282,7 +282,11 @@ def panel_markup_2(_, videoid, chat_id):
 
 def panel_markup_3(_, videoid, chat_id):
     buttons = [
-        [
+       [   InlineKeyboardButton(
+                text="Lirik",
+                url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
+       ],
+       [
             InlineKeyboardButton(
                 text="◀️",
                 callback_data=f"Pages Back|2|{videoid}|{chat_id}",
@@ -295,6 +299,6 @@ def panel_markup_3(_, videoid, chat_id):
                 text="▶️",
                 callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
             ),
-        ],
+       ],
      ]
     return buttons
