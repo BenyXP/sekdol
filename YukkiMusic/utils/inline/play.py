@@ -284,7 +284,7 @@ def panel_markup_3(_, videoid, chat_id):
     buttons = [
        [   InlineKeyboardButton(
                 text="Lirik",
-                url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
+                url=f"https://t.me/OukeenMusicBot?start=lyrics_{ran_hash}",
          ),
        ],
        [
