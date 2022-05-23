@@ -284,7 +284,7 @@ def panel_markup_3(_, videoid, chat_id):
     buttons = [
        [   InlineKeyboardButton(
                 text="🔭 Lirik",
-                callback_data=f"lyrics {videoid}|{user_id}",
+                callback_data=f"lyrics {videoid}",
          ),
        ],
        [
